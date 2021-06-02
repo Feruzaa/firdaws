@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title> FIRDAWS </title>
+	<meta charset="utf-8">
+	<link href="css/minimal-table.css" rel="stylesheet" type="text/css">
+	<style>
+		.copyright {
+	/*width: 740px;  Ширина макета без полей */
+	padding: 0 10px 10px; /* Поля */
+	margin: auto; /* Выравнивание по центру */
+	background: #cfcfcf; /* Цвет текста */
+	text-align: center;
+}
+.fig {
+	text-align: center;
+}
+tr,
+td,
+th {
+	padding: 30px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+	</style>
+</head>
+<body> 
+	<br>
+	<h2 class="fig"> <button style="background-color:  #CFCFCF">
+			<a href="index.html"> Вернуться обратно </a> </button> </h2>
+			
+	 <h1 align="center"> Регистрация </h1> 
+	<table align="center">
+		<tr>
+			<td style="background-color: #CFCFCF">
+				<form action="/signup" method="POST">
+	<label> Имя: </label>
+					<input type="text" name="first_name" required placeholder="Ваше имя">
+					</p>
+					<p> <label> Фамилия: </label>
+						<input type="text" name="last_name" required placeholder="Ваша фамилия">
+					</p>
+					<p> <label> Email: </label>
+						<input type="Email" name="Email" required placeholder="Ваш email">
+					</p>
+					<p> <label>Пол: </label>
+						<input type="radio" name="title"> мужской
+						<input type="radio" name="title"> женский
+					</p>
+					<p> <label>Телефон</label>
+						<input type="tel" name="phone">
+					</p>
+					<p> <label></label>
+						<select name="country">
+							<option> Узбекистан </option>
+							<option> Казахстан </option>
+							<option> Россия </option>
+							<option> Китай </option>
+							<option> Корея </option>
+							<option> США </option>
+							<option> Великобритания </option>
+							<option> Шведция </option>
+						</select>
+					</p>
+					<p>
+						<label> Пароль: <input type="password" name="password" required placeholder="Введение пароль"></label>
+					</p>
+					<p>
+						<label> Подтверлите пароль: <input type="password" name="password" required placeholder="Введение пароль"></label>
+					</p>
+					<p> <label> <input type="checkbox" name="terms"> </label>
+						Я согласен с <a href="/terms"> условиями пользования</a>
+					</p>
+					<p> <button> Зарегистрироваться </button></p>
+				</form>
+			</td>
+		</tr>
+	</table>
+	<br> <br> <br> 
+	<footer class="copyright"> <br> <br><b> &copy; created by Yangibayeva Feruza <br> omina4ka@gmail.com
+			<br></b> <br> </footer>
+</body>
